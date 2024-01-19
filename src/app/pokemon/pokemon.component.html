@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PokeDex</title>
+    </head>
+    <body>
+        <div>
+            <p>Ingresa el numero de Pokedex</p>
+            <input
+                type="number"
+                [(ngModel)]="name">
+            <button (click)="search()">Buscar</button>
+        </div>
+
+        <div
+            *ngIf="pokeName || tipo || nivel || urlImage"
+            class="pokemon-container">
+            <div class="image-container">
+                <div class="info-item">
+                    <img
+                        *ngIf="urlImage"
+                        [src]="urlImage"
+                        alt="Foto Pokemon">
+                    <p *ngIf="!urlImage">No hay imagen disponible</p>
+
+                    <p>Nombre:</p>
+                    <h2>{{pokeName}}</h2>
+
+                    <p>Tipo:</p>
+                    <h2>{{tipo}}</h2>
+
+                    <p>Poder:</p>
+                    <h2>{{nivel}}</h2>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
