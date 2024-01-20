@@ -1,6 +1,6 @@
 
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   color: #c46314;
   font-weight: arial;
   margin-bottom: 10px;
@@ -80,13 +80,22 @@ main {
 
 footer {
   text-align: center;
-  background-color: transparent; /* Quitar el fondo azul */
-  color: #390cef; /* Cambiar el color del texto del footer a un color específico (en este caso, naranja oscuro) */
+  background-color: transparent;
+  color: #390cef;
   padding: 10px;
-  font-size: 12px;
+  font-size: 15px;
   position: fixed;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid #888;
+  
+}
+
+.right-text {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #1708f0;
+  font-size: 16px;
+ 
 }
 
