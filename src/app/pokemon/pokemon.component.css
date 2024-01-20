@@ -1,8 +1,8 @@
 
-p {
+h3 {
   font-size: 25px;
   color: #c46314;
-  font-weight: bold;
+  font-weight: arial;
   margin-bottom: 10px;
 }
 
@@ -72,12 +72,7 @@ button:hover {
   font-family: 'Arial', sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
+
 
 main {
   flex: 1;
@@ -85,12 +80,13 @@ main {
 
 footer {
   text-align: center;
-  background-color: transparent; 
-  color: #888; 
+  background-color: transparent; /* Quitar el fondo azul */
+  color: #390cef; /* Cambiar el color del texto del footer a un color específico (en este caso, naranja oscuro) */
   padding: 10px;
-  font-size: 12px; 
+  font-size: 12px;
   position: fixed;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid #888; 
+  border-top: 1px solid #888;
 }
+
