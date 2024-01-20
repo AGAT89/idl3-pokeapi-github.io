@@ -67,7 +67,30 @@ button:hover {
 
 .info-item h2 {
   font-size: 22px;
-  color: #1422c4;
+  color: #c9cbe2;
   margin: 0;
   font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: transparent; 
+  color: #888; 
+  padding: 10px;
+  font-size: 12px; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #888; 
 }
